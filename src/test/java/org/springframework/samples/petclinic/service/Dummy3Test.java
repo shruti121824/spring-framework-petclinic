@@ -1,5 +1,5 @@
 package devops.demo;
-import src.main.*;
+import org.springframework.samples.petclinic.demo.*;
 import static org.junit.Assert.*;
 
 import org.junit.After;
