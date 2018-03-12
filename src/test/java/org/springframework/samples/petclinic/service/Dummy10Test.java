@@ -1,6 +1,6 @@
 package devops.demo;
 
-import org.springframework.samples.petclinic.demo.*;
+
 import static org.junit.Assert.*;
 
 import org.junit.After;
@@ -31,9 +31,7 @@ public class Dummy10Test {
 
 	@Test
 	public void test() {
-		Dummy10 d10 =new Dummy10();
-		
-		Assert.assertNotNull(d10);
+		System.out.println("This is dummy test");
 		
 	}
 
