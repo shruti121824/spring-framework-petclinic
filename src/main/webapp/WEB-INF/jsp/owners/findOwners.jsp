@@ -7,7 +7,7 @@
 
 <petclinic:layout pageName="owners">
 
-    <h2>Find DAC Owner's List</h2>
+    <h2>Find Owner List</h2>
 
     <spring:url value="/owners.html" var="formUrl"/>
     <form:form modelAttribute="owner" action="${fn:escapeXml(formUrl)}" method="get" class="form-horizontal"
